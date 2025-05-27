@@ -1,3 +1,11 @@
+**** This is the first react ever, Here i work for learn not any purposes.****
+
+*** This is my first react learning file ***
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
