@@ -1,7 +1,11 @@
+// This is Main File        <<< *************
+
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import "./Bike.jsx";
+import BikeInfo from "./Bike.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,9 +25,10 @@ function App() {
       <Person></Person>
       <Student></Student>
       <Developer></Developer>
-      <Device name="Laptop" price ="20000 Taka"></Device>
-      <Device name="Desktop" price ="80000"></Device>
-      <Device name="Macbook" price ="200000"></Device>
+      <Device name="Laptop" price="20000 Taka"></Device>
+      <Device name="Desktop" price="80000"></Device>
+      <Device name="Macbook" price="200000"></Device>
+      <BikeInfo name="BMW" engine="1000cc" price="20 lac"></BikeInfo>
     </>
   );
 }
@@ -71,12 +76,12 @@ function Student() {
 }
 
 // ______________Developer Component____________________
-function Developer (){
+function Developer() {
   const titleStyle = {
-    color : "darkblue",
+    color: "darkblue",
     fontSize: "28px",
-    fontWeight: "bold",  //added style in here
-  }
+    fontWeight: "bold", //added style in here
+  };
   const developerStyle = {
     backgroundColor: "lime",
     padding: "20px",
@@ -84,22 +89,30 @@ function Developer (){
     textAlign: "center",
     marginTop: "40px",
     color: "black",
-  }
-  return(
-    <div style={developerStyle}> 
+  };
+  return (
+    <div style={developerStyle}>
       <h2 style={titleStyle}>Web Application Development</h2>
       <h3>i have to learn React, Node.js, and MongoDB</h3>
     </div>
-  )
+  );
 }
 
-function Device (props){
-  return(
-    <div style={{border:"2px solid black", padding:"20px", margin:"20px" , backgroundColor:"white", borderRadius:"10px"}}>
-      <h2 style={{color:"red"}}>Device : {props.name}</h2>
-      <h2 style={{color:"yellowgreen"}}>Price : {props.price}</h2>
+function Device(props) {
+  return (
+    <div
+      style={{
+        border: "2px solid black",
+        padding: "20px",
+        margin: "20px",
+        backgroundColor: "white",
+        borderRadius: "10px",
+      }}
+    >
+      <h2 style={{ color: "red" }}>Device : {props.name}</h2>
+      <h2 style={{ color: "yellowgreen" }}>Price : {props.price}</h2>
     </div>
-  )
+  );
 }
 
 export default App;
