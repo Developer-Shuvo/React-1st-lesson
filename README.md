@@ -4,6 +4,8 @@
 *** Some new dynamic learning ***
 ** In this repo, how to prop and how to connect 1 file to other ***
 
+** কিভাবে একটা ফাইল থেকে মেইন ফাইলে export deafult || import করতে হবে **
+
 
 
 
