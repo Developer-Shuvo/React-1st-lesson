@@ -1,8 +1,8 @@
 **** This is the first react ever, Here i work for learn not any purposes.****
 
 *** This is my first react learning file ***
-*** Some new dynamc learning ***
-
+*** Some new dynamic learning ***
+** In this repo, how to prop and how to connect 1 file to other ***
 
 
 
