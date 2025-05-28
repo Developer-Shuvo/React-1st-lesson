@@ -6,6 +6,7 @@
 
 ** কিভাবে একটা ফাইল থেকে মেইন ফাইলে export deafult || import করতে হবে **
 ** Conditional rendering **
+** Use Ternary Operator **
 
 
 
